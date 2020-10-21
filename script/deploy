@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh  -o "StrictHostKeyChecking=no"  -i id_rsa root@18.205.152.116 <<EOF
+ssh  -o "StrictHostKeyChecking=no"  -i id_rsa root@54.209.140.146 <<EOF
 cd ~/app
 git pull
 npm install
